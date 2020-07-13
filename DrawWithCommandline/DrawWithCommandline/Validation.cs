@@ -552,20 +552,20 @@ namespace DrawWithCommandline
                     }
                     if (!isVaraibleFound)
                     {
-                        MessageBox.Show("Varaible is not defined");
+                        MessageBox.Show("Varaible not defined");
                         isValidCommand = false;
                     }
                 }
                 else
                 {
-                    MessageBox.Show("Varaible is not defined");
+                    MessageBox.Show("Varaible not defined");
                     isValidCommand = false;
                 }
 
             }
             else
             {
-                MessageBox.Show("Varaible is not defined");
+                MessageBox.Show("Varaible not defined");
                 isValidCommand = false;
             }
         }
